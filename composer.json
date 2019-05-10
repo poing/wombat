@@ -1,0 +1,30 @@
+{
+    "name": "poing/wombat",
+    "description": "WombatDialer API Interface for PHP with Guzzle",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Brian LaVallee",
+          "email": "brian.lavallee@invite-comm.jp"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "kevinrob/guzzle-cache-middleware": "^3.2",
+        "doctrine/cache": "^1.6",
+        "nahid/jsonq": "^5.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Poing\\Wombat\\": "source/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wombat\\Test\\": "test/"
+        }
+    }
+}
